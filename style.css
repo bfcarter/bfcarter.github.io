@@ -12,11 +12,24 @@ ul{
 
 
 #hammerhead {
-    width:2839px;
+    width:1839px;
     height:107px;
 }
 
 #apple {
-    width:2839px;
+    width:1839px;
     height:107px;
+}
+#mailchimp {
+    width:404px;
+    height:228px;
+}
+
+#milk {
+    width:304px;
+    height:228px;
+}
+#evermine{
+    width:404px;
+    height:228px;
 }
