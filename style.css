@@ -12,16 +12,16 @@ ul{
 
 
 #hammerhead {
-    width:1839px;
+    width:1639px;
     height:107px;
 }
 
 #apple {
-    width:1839px;
-    height:107px;
+    width:1639px;
+    height:207px;
 }
 #mailchimp {
-    width:404px;
+    width:444px;
     height:228px;
 }
 
@@ -30,6 +30,15 @@ ul{
     height:228px;
 }
 #evermine{
-    width:404px;
+    width:504px;
     height:228px;
+}
+#hubspot {
+    width:504px;
+    height:228px;
+}
+
+#gilt {
+    width:224px;
+    height:504px;
 }
