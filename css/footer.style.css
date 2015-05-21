@@ -1,0 +1,35 @@
+/*footer*/
+body{
+    margin: 0;
+    padding: 0;
+    font: 15px;
+
+}
+
+nav {
+    background-color: #fff;
+    margin: 0;
+    overflow: hidden;
+    z-index: 10000;
+    text-align: center;
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+nav > ul > li > a {
+     color: #000;
+     background-color:#fff;
+     display: block;
+     line-height: 2em;
+     padding: 10px 20px 10px 20px;
+     text-decoration: none;
+ }
