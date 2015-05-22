@@ -1,0 +1,30 @@
+
+#one {
+    width: 25%;
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+
+
+}
+
+#two {
+    width: 25%;
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+}
+
+figure{
+    align-content: center;
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    overflow:hidden;
+
+}
+div{
+display: inline-block;
+padding: 20px;
+margin-left: 100%;
+margin-right: 100%;}

@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="css/registration.style.css?v=1">
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
 </head>
 <body>
-
-
+<div id="box">
+<img src="giltlogin.jpg">
 <div class="login">
     <form>
-        <p><input type="text" name="login"  placeholder="Email Address"></p>
-        <p><input type="text" name="password" placeholder="Password"></p>
-
+        <section id="fields">
+        <p><input id="login" type="text" name="login"  placeholder="Email Address"></p>
+        <p><input id="password" type="text" name="password" placeholder="Password"></p>
+        </section>
         <button class="submit">Submit</button>
 
         <p class="remember_me">
@@ -24,16 +26,17 @@
 
 </div>
 
-<div class="forgot password">
-    <a href="">Forgot your password?</a>
+<div class="forgotpassword">
+    <a id="pass" href="">Forgot your password?</a>
+</div>
+    <div class="headerDivider"><hr></div>or<div class="headerDivider"><hr></div>
+<div>
+<button class="facebook"><img id="fb" src="facebookicon.jpg">Login with facebook</button>
 </div>
 <div>
-<button class="facebook">Login with facebook</button>
-</div>
-<div>
-    <p>Not a member? <a href="">Sign Up</a></p>
+    <p>Not a member? <a id="sign" href="">Sign Up</a></p>
 
 </div>
-
+</div>
 </body>
 </html>

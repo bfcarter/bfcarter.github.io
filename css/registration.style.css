@@ -1,0 +1,75 @@
+
+#box {
+border-radius: 8px;
+    width: 380px;
+    border: none;
+    background: #F2F2F0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.submit{
+display: block;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 13px;
+    background: #E79C02;
+    padding:5px 70px 5px 70px;
+    text-decoration: none;
+    line-height: 2em;
+    margin-left: 100px;
+
+}
+
+.submit:hover {
+background: #F4CB31;
+text-decoration: none;
+}
+.headerDivider {
+    width: 150px;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #B9B9B9;
+}
+
+.facebook{
+    display: block;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 13px;
+    background: #4A5B91;
+    padding:5px 70px 5px 20px;
+    text-decoration: none;
+    line-height: 2em;
+    margin-left: 60px;
+
+}
+
+.facebook:hover {
+    background: #4A5B91;
+    text-decoration: none;
+}
+
+#fb {
+    padding-right: 30px;
+    float: left;
+
+}
+
+#login, #password {
+    width: 200px;
+    height: 25px;
+}
+
+#pass, #sign {
+    color: #E79C02;
+    text-decoration: none;
+    padding-bottom: 20px;
+
+
+}

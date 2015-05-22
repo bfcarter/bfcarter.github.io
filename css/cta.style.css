@@ -1,0 +1,30 @@
+
+
+
+div {
+    margin-top: 200px;
+    text-align: center;
+    background-image: url("hubspot.png");
+}
+
+
+
+button {
+margin-left: 600px;
+    display: block;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 15px;
+    background: #4497B6;
+    opacity: 0.6;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    line-height: 2em;
+
+}
+
+button:hover {
+    background: #4964A1;
+
+    text-decoration: none;
+}
