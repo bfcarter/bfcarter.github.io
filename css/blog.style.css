@@ -21,11 +21,12 @@ body{
 h2 {
     font-size: 10px;
 
-    color: #000;
+
 
   }
 a{
     text-decoration: none;
+    color: #000;
 }
 
 #milkpic{
