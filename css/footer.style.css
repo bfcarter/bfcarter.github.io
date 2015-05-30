@@ -32,9 +32,10 @@ li {
 
 
 }
-li:last-child {
+a:last-child {
     border: 0;
 }
+
 /*body{
     margin: 0;
     padding: 0;
