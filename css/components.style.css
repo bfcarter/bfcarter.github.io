@@ -11,6 +11,7 @@ body{
 }
 
 nav {
+    font-family: sans-serif;
     position: fixed;
     width: 100%;
     background-color: #312E39;
@@ -21,12 +22,15 @@ nav {
     left: 0;
     right: 0;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    opacity: .95;
+    opacity: 100;
+
 
 }
 nav ul{
-    margin: 0;
+    margin-top: 7px;
+    margin-bottom: 7px;
     padding: 0;
+    font-size: 14px;
     float: right;
 }
 nav ul li {
@@ -39,10 +43,9 @@ nav ul li {
 
 nav > ul > li > a {
     color: #fff;
-    background-color:#312E39;
     display: block;
     line-height: 2em;
-    padding: 10px 20px 10px 20px;
+    padding: 5px 20px 5px 20px;
     text-decoration: none;
 }
 .logo{
@@ -51,23 +54,21 @@ nav > ul > li > a {
 
 }
 
-#pre-order {
-    text-decoration: none;
-    color: #fff;
-}
 
-button {
+
+#pre-order {
 display: block;
     border-radius: 28px;
     color: #F25B3B;
-    font-size: 15px;
+
     background: #F25B3B;
-    padding: 10px 20px 10px 20px;
+
     text-decoration: none;
     line-height: 2em;
+    float: right;
 }
 
-button:hover {
+#pre-order:hover {
     background: #D93512;
     text-decoration: none;
 }

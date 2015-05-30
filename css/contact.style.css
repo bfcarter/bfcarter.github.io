@@ -1,29 +1,37 @@
 
-img{
-
+header {
+    text-align: center;
     padding: 20px;
-    margin-bottom: 100px;
-
-
 }
-div {
+section{
+
     display: inline-block;
+    text-align: center;
+    width: 100%;
 }
- #email, #call, #write {
-     width: 25%;
-     float: left;
-     margin-top: 100px;
-     text-align: center;
 
-     position: relative;
+
+i{
+    font-size: 25px;
+}
+article {
+    font-family: georgia, serif;
+    display: inline-block;
+    width: 25%;
+    float: left;
+    padding-top: 50px;
+    border-right: dotted ;
+    border-bottom: 0;
+    height: 200px;
+
  }
-
-
-#email, #call{
-border-right: dotted;
+#write{
+    border: 0;
 }
 
-#mailit {
+
+
+a{
     text-decoration: none;
     color: #369685;
 }

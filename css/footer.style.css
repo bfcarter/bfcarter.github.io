@@ -1,19 +1,48 @@
 /*footer*/
-body{
+
+footer{
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+
+}
+
+
+
+footer > ul > li > a {
+    color: #7F7F7F;
+    display: block;
+    line-height: 1px;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    margin:0 auto;
+    border-right: solid 1px;
+
+
+}
+
+
+li {
+    padding: 2px;
+    height: 3px;
+    display: table-cell;
+    text-align: center;
+    margin: auto;
+
+
+
+}
+li:last-child {
+    border: 0;
+}
+/*body{
     margin: 0;
     padding: 0;
     font: 15px;
 
 }
 
-#foot {
-    background-color: #fff;
-    margin: 0;
-    overflow: hidden;
-    z-index: 10000;
-    text-align: center;
 
-}
 #foot.list {
     margin: 0;
     padding: 0;
@@ -24,6 +53,8 @@ body{
 nav ul li {
     display: inline-block;
     list-style-type: none;
+
+
 }
 nav > ul > li > a {
      color: #7F7F7F;
@@ -32,11 +63,13 @@ nav > ul > li > a {
      line-height: 2em;
      padding: 10px 5px 10px 5px;
      text-decoration: none;
- }
-
-.headerDivider {
     border-right:1px solid #16222c;
     height:10px;
+ }
+
+li {
+    border-right:1px solid #16222c;
+
     display: inline-block;
 
 }

@@ -1,24 +1,104 @@
 
 
 
-body{
+
+/*
+ul{
+    font-family: sans-serif;
+    color:#fff;
+    list-style-type: none;
     text-decoration: none;
 
 }
 
-ul{
-    margin-top: 400px;
-    list-style-type: none;
-    text-decoration: none;
-    margin-left:75px;
+li {
+    height: 300px;
+    padding-right: 12px;
+    display: inline;
 
 }
 
 li {
 
-    padding-right: 2px;
+    height: 300px;
+    padding-right: 12px;
     display: inline;
+    background-size: 300px 120px;
+    background-repeat: no-repeat;
+
+}
+ul{
+    margin-top: 400px;
+    font-family: sans-serif;
+    color:#fff;
+    text-decoration: none;
+}
+li {
+
+
+    padding-right: 30px;
+    display: inline;
+    background-size: 300px 600px;
+    background-repeat: no-repeat;
+
+}
+*/
+
+
+
+ul{
+    margin-top: 600px;
+    display: inline-block;
+    font-family: sans-serif;
+
     float: left;
+    text-align: center;
+
+
+}
+li {
+
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 10px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 1300px;
+    width: 270px;
 
 }
 
+a{
+
+    font-size: 20px;
+    text-decoration: none;
+    color:#fff;
+
+}
+
+#mac{
+    color: #9B9497;
+}
+br{
+    font-size: 20px;
+    padding: 5px;
+}
+#ipad {
+    background-image: url("../ipad1.jpg");
+
+}
+
+#iphone {
+    background-image: url("../iphone.jpg");
+
+}
+
+#environment {
+    background-image: url("../appleenvironment.jpg");
+
+}
+
+#macbook {
+    background-image: url("../macbook.jpg");
+    color: #9B9497;
+}
